@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="css/calculadora.css">
+<script src="programa.js" defer></script>
+</head>
+
+<title>Calculadora de IMC</title>
+<link rel="icon" href="calculadora bonita.jpeg">
+<meta charset="UTF-8">
+
+
+    <h1 style="color: gray;">Bem-vindo à calculadora de IMC</h1>
+    <p><b>Aqui você terá o resultado do seu IMC, podendo assim cuidar da sua saúde.</b></p>
+
+    
+    <form id="imc-form">
+        <input type="text" id="name" placeholder="Digite seu Nome" required><br><br>
+        <input type="number" id="age" placeholder="Digite sua Idade" required><br><br>
+
+        <p><b>Selecione seu gênero:</b></p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Masculino</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Feminino</label><br><br>
+
+        <input type="number" id="weight" placeholder="Digite seu peso em kg" required><br><br>
+        <input type="number" id="height" placeholder="Digite sua altura em cm" required><br><br>
+
+        <button type="button" id="calc-btn"><b>Calcular</b></button><br><br>
+    </form>
+
+    
+    <div id="result-container" style="display: none;">
+        <p id="imc-number">Seu IMC: <span></span></p>
+        <p id="imc-info">Situação Atual: <span></span></p>
+            <h3>Confira as classificações:</h3>
+            <div id="imc-table"></div>
+        
+    </div>
+    <div class="table-row">
+        <div>Menor que 18,5</div>
+        <div>Magreza</div><br>
+        
+    
+    <div class="table-row">
+        <div>De 18,5 a 24,9</div>
+        <div>Normal</div><br>
+        
+    
+    <div class="table-row">
+        <div>De 25,0 a 29,9</div>
+        <div>Sobrepeso</div><br>
+        
+    
+    <div class="table-row">
+        <div>De 30,0 a 39,9</div>
+        <div>Obesidade</div><br>
+        
+    
+    <div class="table-row">
+        <div>Maior que 40,0</div>
+        <div>Obesidade mórbida</div><br>
+        
+    
+</div>
+
+   
+    <button type="button" id="back-btn" style="display: none;">Voltar</button>
+
+</body>
+</html>
+
+    
+        
+
+
+
+
+
+
+
+<p><b>Projeto desenvolvido por Patrick Fernandes nas linguagens JavaScript, HTML e CSS</b></p>
+<a href="https://www.instagram.com/pkzin?igsh=MXA1NTRjYXRkZGhreQ=="> Ir para o instagram do desenvolvedor</a>
+
+</html> 
+

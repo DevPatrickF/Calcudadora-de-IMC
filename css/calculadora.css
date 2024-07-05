@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+    justify-content: center;
+    background-color: black;
+    color:#fff
+      
+   }
+
+.Magreza { 
+    color: #12db34;
+
+}
+
+.Normal {
+    color: #dbce12;
+}
+
+.Sobrepeso { 
+    color: #db6212
+}
+
+.Obesidade { 
+    color: #db1912
+}
+
+.Obesidade_Mórbida { 
+    color: #db1912
+}
